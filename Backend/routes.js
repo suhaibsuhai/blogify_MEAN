@@ -14,6 +14,7 @@ router.get('/', (req, res) => {
         });
 });
 
+
 router.post('/', (req, res) => {
     let post = new Post({
         title: req.body.title,
