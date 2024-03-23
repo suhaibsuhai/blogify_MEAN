@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('./db.js');
 const app = express();
-const route = require('../Backend/routes.js');
+const route = require('./routes.js');
 
 app.use(bodyParser.json());
 app.use(cors({origin: 'http://localhost:4200'}));
