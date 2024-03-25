@@ -7,7 +7,7 @@ import { Post } from '../model/post';
   providedIn: 'root'
 })
 export class ApiService {
-  url: string = 'http://localhost:3000/post'
+  url: string = 'https://blogify-backend.azurewebsites.net'
   constructor(private http: HttpClient) { }
 
   //get All Post data
